@@ -2,7 +2,8 @@ function fizz (a){
   if (a % 3 == 0){
     return "fizz";
   }
-}
+  }
+
 
 function buzz (a){
   if (a % 5 == 0){

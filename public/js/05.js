@@ -1,13 +1,18 @@
-function n123(){
+function zero(){
   return [];
 }
+
 function succ(a){
-  return true;
- }
-function n(expectedLength){
-var a = zero();
-while(a.length < expectedLength){
-  a = succ(a)
+  a.push(true);
+  return a;
 }
-return a;
+
+function n123(){
+  var a = zero();
+
+  while(a.length < 123){
+    a = succ(a);
+  }
+
+  return a;
 }
