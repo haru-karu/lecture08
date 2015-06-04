@@ -1,3 +1,3 @@
 function porjection(a){
-  return undefined;
+  return a;
 }
